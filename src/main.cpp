@@ -95,6 +95,7 @@ int main(int argc, char *argv[]){
     }
     sudoku_file.close();
 
+    // solve sudoku
     std::cout << "Unsolved: " << std::endl;
     print_sudoku(sudoku);
     std::cout << std::endl;
